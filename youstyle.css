@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.Tigerheading {
+	text-align: center;
+	justify-content: center;
+	color: orange;
+	
+	
+}
+
+.con {
+	justify-content: center;
+	color: white;
+	font-size: 20px;
+	padding-top: 10%
+}
+.abouth{
+	text-align: center;
+	justify-content: center;
+	color: orange;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+	background-position: center;
+	font-size: 100%;
+	font-family: sans-serif;
+	background: black;
+}
+
+
+header {
+
+	width: 100%;
+	
+	
+	align-items: center;
+	
+	
+
+	background-position: center;
+	font-family: sans-serif;	
+}
+
+
+#menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+
+#menu li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+section {
+	width: 100%;
+	float: left;
+	height: 100vh;
+	position: relative;
+}
+
+#BOOK{
+	background-color: yellow;
+	background-image: url("Background.jpg");
+	padding-bottom: 0px;
+	margin-top: 0px;
+
+
+}
+#ABOUT{
+	background-color: black;
+	background-image: url("Background.png");
+   
+    padding-top: 0px;
+    margin-top: 0px;
+
+
+}
+#SERVICES{
+	background-color: #b52b65;
+
+}
+#PRICING{
+	background-color: #3C2C3E;
+
+}
+#LOCALIZATIONS{
+	background-color: black;
+	
+
+}
+
+.localheading {
+	padding-top: 5%;
+	color: orange;
+	justify-content: center;
+	text-align: center;
+
+	
+
+}
+
+
+hdrive {
+	font-size: 100%;
+	color: orange;
+	justify-content: center;
+	text-align: center;
+}
+
+.wrapper{
+	
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	
+}
+
+.contact-form{
+	max-width: 550px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.8);
+	padding: 30px;
+	border-radius: 50px;
+	
+	box-shadow: 0 0 10px;
+}
+
+/*.input-fields{
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+}*/
+
+.input-fields,
+.msg{
+	width: 48%;
+}
+
+.input-fields, .input,
+.msg textarea{
+	background: transparent;
+	border-top-right-radius: 3 0 0 2;
+	border-color: orange;
+	color: white;
+	width: 100%;
+}
+
+.btn1 {
+	position: center;
+	text-align: center;
+	width: 200px;
+	background-color: orange;
+	font-size: 35px;
+	color: white;
+	font-family: poppins;
+	font-weight: 90;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 30px;
+	border-color: black;
+	transition: 1.5%;
+	}
+
+
+
+
+
+
+}
