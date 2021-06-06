@@ -7,6 +7,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	background: black;
+}
+
 .Tigerheading {
 	text-align: center;
 	justify-content: center;
@@ -15,11 +19,10 @@ html {
 	
 }
 
-.con {
-	justify-content: center;
+p{
 	color: white;
 	font-size: 20px;
-	padding-top: 10%
+	
 }
 .abouth{
 	text-align: center;
@@ -53,6 +56,21 @@ header {
 	font-family: sans-serif;	
 }
 
+p {
+	color: orange;
+
+}
+
+#PRICE {
+  background: black;
+}
+
+
+.a, .b, .c, .d, .e, .f {
+	background: black;
+	color: white;
+
+}
 
 #menu li{
 	list-style: none;
@@ -73,29 +91,76 @@ section {
 	position: relative;
 }
 
+.navbar-default {
+	background: black;
+	column-fill: orange;
+}
+
 #BOOK{
 	background-color: yellow;
 	background-image: url("Background.jpg");
-	padding-bottom: 0px;
+	padding-bottom: 20px;
 	margin-top: 0px;
-
-
+	
 }
 #ABOUT{
+	padding-top: 5%;
 	background-color: black;
 	background-image: url("Background.png");
-   
-    padding-top: 0px;
-    margin-top: 0px;
-
+  
+}
+#SERVICE{
+	background: black;
+	color: white;
 
 }
-#SERVICES{
-	background-color: #b52b65;
 
+.ss {
+	background-image: url("special.png");
+	background-repeat: none;
 }
+
+.mm {
+	background-image: url("mini-buses.png");
+	background-repeat: none;s
+}
+
+
+
+.aa {
+	background-image: url("airport.png");
+	background-repeat: none;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+.ww {
+	background-image: url("weddings.png");
+	background-repeat: none;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+.pp {
+	background-image: url("parcel.png");
+	background-repeat: none;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+
+.cc {
+	background-image: url("Chauffer Services.png");
+	background-repeat: none;
+	padding-top 25%;
+	padding-bottom: 25%;
+}
+
+
+
+
 #PRICING{
 	background-color: #3C2C3E;
+
 
 }
 #LOCALIZATIONS{
@@ -110,34 +175,93 @@ section {
 	justify-content: center;
 	text-align: center;
 
-	
 
+}
+.con {
+	padding-top: 40px;
 }
 
 
-hdrive {
+.hdrive {
 	font-size: 100%;
 	color: orange;
 	justify-content: center;
 	text-align: center;
 }
 
+.navy {
+	  background: black;
+	
+}
+
+.clr{
+	clear:  both;
+}
+
+.footer-wrapper{
+	width: 100%;
+	height:  auto;
+	min-height:  250px;
+	margin-top:  20px;
+	background0-image:  url("image.jpg");
+	background: black;
+	background-position:  center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow:  hidden;
+
+}
+
+.footer-social-icons {
+	width:  100%;
+	height:  auto;
+	margin:  auto;
+	padding-top:  20px;
+}
+
+.footer-social-icons ul{
+	margin:  0px;
+  padding:  0px;
+  text-align: center;
+
+}
+
+.footer-social-icons ul li{
+	display:  inline-block;
+	margin-right:  2px;
+	width:  36px;
+	height:  36px;
+	text-align:  center;
+}
+
+.footer-social-icons ul li a{
+	color:  #fff;
+	display:  block;
+	font-size:  22px;
+	text-shadow:  0px 0px 5px rgba(0,0,0,0.75);
+}
+
+
 .wrapper{
 	
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
-	
+}
+.logo{
+	width: 250px;
+	height: 250px;
 }
 
 .contact-form{
 	max-width: 550px;
 	margin: 0 auto;
 	background: rgba(0,0,0,0.8);
-	padding: 30px;
+	padding: 20px;
 	border-radius: 50px;
-	
 	box-shadow: 0 0 10px;
+
 }
 
 /*.input-fields{
@@ -177,9 +301,63 @@ hdrive {
 	transition: 1.5%;
 	}
 
+.footer-social-icons ul li a i{
+  line-height:  36px;
+  background: orange;
+}
 
-
-
-
+.footer-social-icons ul li:nth-child(i){
 
 }
+
+.footer-social-icons ul li:nth-child(1){
+	background: orange;
+}
+
+.footer-social-icons ul li:nth-child(2){
+	background: orange;
+}
+.footer-social-icons ul li:nth-child(3){
+	background: orange;
+}
+.footer-social-icons ul li:nth-child(4){
+	background: orange;
+}
+.footer-social-icons ul li:nth-child(5){
+	background: orange;
+}
+.footer-social-icons ul li:nth-child(6){
+	background: orange;
+}
+
+.footer-mid-part{
+	width:  100%;
+	height:  auto;
+	margin: auto;
+}
+
+.footer-section-one{
+	width:  100%;
+	height: auto;
+	margin: auto;
+	padding:  20px 20px;
+	background:  rgba(255, 255, 255, .1);
+
+}
+
+.footer-heading{
+	width:  100%;
+	height:  auto;
+	margin:  auto;
+}
+
+.footer-heading h2{
+	font-size: 18px;
+	text-align:  left;
+	color:  #fff;
+	text-transform:  uppercase;
+	margin:  0px;
+
+}
+
+
